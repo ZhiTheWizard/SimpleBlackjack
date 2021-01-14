@@ -46,7 +46,7 @@ def drawcard():
 def pcdrawcard():
     global computer
     global deck
-    probability = 3
+    probability = random.randint(1, 11)
     cards = random.randint(1, 11)
 
     if probability == 3 or 5 or 9 or 1:
